@@ -148,3 +148,12 @@ async function criarCliente(nome, idade, cidade) {
 }
 
 // criarCliente("Igor", 29, "São paulo");
+", erro.message);
+        }
+      });
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+// criarCliente("Igor", 29, "São paulo");
