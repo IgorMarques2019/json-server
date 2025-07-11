@@ -9,7 +9,6 @@ async function getProdutos(id) {
   }
 }
 
-// Exemplo de uso correto:
 getProdutos(0).then((produto) => {
   console.log(produto);
 });
