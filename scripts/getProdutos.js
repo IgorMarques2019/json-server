@@ -61,7 +61,7 @@ async function criarProduto(nome, categoria, preco) {
       })
       .then(async (novoProduto) => {
         try {
-          const resposta = await fetch("http://localhost:3000/produtos", {
+          const resposta = await fetch("http://localhost:3000/clientes", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -79,7 +79,8 @@ async function criarProduto(nome, categoria, preco) {
     console.log(err);
   }
 }
-criarProduto("Televisão 800 polegadas", "eletrônicos", 3880.45);
+criarProduto("Televisão 800 polegadas", "eletrônicos", 3880.4);
+
 // --------------------------------------------------------------------------------------------
 
 async function produtosPorCategorias() {
@@ -107,6 +108,8 @@ async function buscarClientes() {
     return null;
   }
 }
+
+// --------------------------------------------------------------------------------------------
 
 async function criarCliente(nome, idade, cidade) {
   try {
@@ -140,15 +143,6 @@ async function criarCliente(nome, idade, cidade) {
           console.log("Cliente criado:", clienteCriado);
         } catch (erro) {
           console.error("Erro ao criar cliente:", erro.message);
-        }
-      });
-  } catch (err) {
-    console.log(err);
-  }
-}
-
-// criarCliente("Igor", 29, "São paulo");
-", erro.message);
         }
       });
   } catch (err) {
