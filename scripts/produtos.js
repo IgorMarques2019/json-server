@@ -13,10 +13,10 @@ async function produtoPorId(id) {
     return null;
   }
 }
-
-// produtoPorId(1).then((produto) => {
-//   console.log(produto);
-// });
+/*
+ produtoPorId(1).then((produto) => {
+ console.log(produto);
+});*/
 
 async function buscarProdutos() {
   try {
@@ -72,7 +72,7 @@ async function criarProduto(nome, categoria, preco) {
     console.log(err);
   }
 }
-criarProduto("Televisão 800 polegadas", "eletrônicos", 3880.4);
+// criarProduto("Televisão 800 polegadas", "eletrônicos", 3880.4);
 
 async function produtosPorCategorias() {
   try {
@@ -85,4 +85,4 @@ async function produtosPorCategorias() {
   }
 }
 
-// produtosPorCategorias().then((response) => console.log(response));
+produtosPorCategorias().then((response) => console.log(response));
