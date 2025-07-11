@@ -1,122 +1,204 @@
-[
-  {
-    "id": 1,
-    "nome": "Produto 1",
-    "categoria": "Jogos",
-    "preco": "73.49"
-  },
-  {
-    "id": 2,
-    "nome": "Produto 2",
-    "categoria": "Roupas",
-    "preco": "217.84"
-  },
-  {
-    "id": 3,
-    "nome": "Produto 3",
-    "categoria": "Roupas",
-    "preco": "173.89"
-  },
-  {
-    "id": 4,
-    "nome": "Produto 4",
-    "categoria": "Jogos",
-    "preco": "396.71"
-  },
-  {
-    "id": 5,
-    "nome": "Produto 5",
-    "categoria": "Eletrônicos",
-    "preco": "301.93"
-  },
-  {
-    "id": 6,
-    "nome": "Produto 6",
-    "categoria": "Livros",
-    "preco": "116.32"
-  },
-  {
-    "id": 7,
-    "nome": "Produto 7",
-    "categoria": "Alimentos",
-    "preco": "271.53"
-  },
-  {
-    "id": 8,
-    "nome": "Produto 8",
-    "categoria": "Eletrônicos",
-    "preco": "391.55"
-  },
-  {
-    "id": 9,
-    "nome": "Produto 9",
-    "categoria": "Livros",
-    "preco": "40.52"
-  },
-  {
-    "id": 10,
-    "nome": "Produto 10",
-    "categoria": "Jogos",
-    "preco": "161.18"
-  },
-  {
-    "id": 11,
-    "nome": "Produto 11",
-    "categoria": "Jogos",
-    "preco": "325.90"
-  },
-  {
-    "id": 12,
-    "nome": "Produto 12",
-    "categoria": "Alimentos",
-    "preco": "455.75"
-  },
-  {
-    "id": 13,
-    "nome": "Produto 13",
-    "categoria": "Eletrônicos",
-    "preco": "81.22"
-  },
-  {
-    "id": 14,
-    "nome": "Produto 14",
-    "categoria": "Roupas",
-    "preco": "378.42"
-  },
-  {
-    "id": 15,
-    "nome": "Produto 15",
-    "categoria": "Eletrônicos",
-    "preco": "33.75"
-  },
-  {
-    "id": 16,
-    "nome": "Produto 16",
-    "categoria": "Livros",
-    "preco": "104.06"
-  },
-  {
-    "id": 17,
-    "nome": "Produto 17",
-    "categoria": "Livros",
-    "preco": "322.56"
-  },
-  {
-    "id": 18,
-    "nome": "Produto 18",
-    "categoria": "Eletrônicos",
-    "preco": "201.16"
-  },
-  {
-    "id": 19,
-    "nome": "Produto 19",
-    "categoria": "Eletrônicos",
-    "preco": "420.64"
-  },
-  {
-    "id": 20,
-    "nome": "Produto 20",
-    "categoria": "Alimentos",
-    "preco": "35.91"
-  }
-]
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Produto 1",
+      "categoria": "Jogos",
+      "preco": "73.49"
+    },
+    {
+      "id": "2",
+      "nome": "Produto 2",
+      "categoria": "Roupas",
+      "preco": "217.84"
+    },
+    {
+      "id": "3",
+      "nome": "Produto 3",
+      "categoria": "Roupas",
+      "preco": "173.89"
+    },
+    {
+      "id": "4",
+      "nome": "Produto 4",
+      "categoria": "Jogos",
+      "preco": "396.71"
+    },
+    {
+      "id": "5",
+      "nome": "Produto 5",
+      "categoria": "Eletrônicos",
+      "preco": "301.93"
+    },
+    {
+      "id": "6",
+      "nome": "Produto 6",
+      "categoria": "Livros",
+      "preco": "116.32"
+    },
+    {
+      "id": "7",
+      "nome": "Produto 7",
+      "categoria": "Alimentos",
+      "preco": "271.53"
+    },
+    {
+      "id": "8",
+      "nome": "Produto 8",
+      "categoria": "Eletrônicos",
+      "preco": "391.55"
+    },
+    {
+      "id": "9",
+      "nome": "Produto 9",
+      "categoria": "Livros",
+      "preco": "40.52"
+    },
+    {
+      "id": "10",
+      "nome": "Produto 10",
+      "categoria": "Jogos",
+      "preco": "161.18"
+    },
+    {
+      "id": "11",
+      "nome": "Produto 11",
+      "categoria": "Jogos",
+      "preco": "325.90"
+    },
+    {
+      "id": "12",
+      "nome": "Produto 12",
+      "categoria": "Alimentos",
+      "preco": "455.75"
+    },
+    {
+      "id": "13",
+      "nome": "Produto 13",
+      "categoria": "Eletrônicos",
+      "preco": "81.22"
+    },
+    {
+      "id": "14",
+      "nome": "Produto 14",
+      "categoria": "Roupas",
+      "preco": "378.42"
+    },
+    {
+      "id": "15",
+      "nome": "Produto 15",
+      "categoria": "Eletrônicos",
+      "preco": "33.75"
+    },
+    {
+      "id": "16",
+      "nome": "Produto 16",
+      "categoria": "Livros",
+      "preco": "104.06"
+    },
+    {
+      "id": "17",
+      "nome": "Produto 17",
+      "categoria": "Livros",
+      "preco": "322.56"
+    },
+    {
+      "id": "18",
+      "nome": "Produto 18",
+      "categoria": "Eletrônicos",
+      "preco": "201.16"
+    },
+    {
+      "id": "19",
+      "nome": "Produto 19",
+      "categoria": "Eletrônicos",
+      "preco": "420.64"
+    },
+    {
+      "id": "20",
+      "nome": "Produto 20",
+      "categoria": "Alimentos",
+      "preco": "35.91"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "Maicon Teixeira",
+      "idade": 25,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": "2",
+      "nome": "Carlos Oliveira",
+      "idade": 35,
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "3",
+      "nome": "Fernanda Souza",
+      "idade": 22,
+      "cidade": "Belo Horizonte"
+    },
+    {
+      "id": "4",
+      "nome": "João Pedro",
+      "idade": 40,
+      "cidade": "Curitiba"
+    },
+    {
+      "id": "5",
+      "nome": "Mariana Lima",
+      "idade": 30,
+      "cidade": "Fortaleza"
+    },
+    {
+      "id": "6",
+      "nome": "Lucas Rocha",
+      "idade": 19,
+      "cidade": "Salvador"
+    },
+    {
+      "id": "7",
+      "nome": "Patrícia Gomes",
+      "idade": 33,
+      "cidade": "Recife"
+    },
+    {
+      "id": "8",
+      "nome": "Rafael Martins",
+      "idade": 27,
+      "cidade": "Porto Alegre"
+    },
+    {
+      "id": "9",
+      "nome": "Juliana Costa",
+      "idade": 24,
+      "cidade": "Manaus"
+    },
+    {
+      "id": "10",
+      "nome": "Thiago Almeida",
+      "idade": 31,
+      "cidade": "Brasília"
+    },
+    {
+      "id": 11,
+      "nome": "João",
+      "idade": 25,
+      "cidade": "Araçatuba"
+    },
+    {
+      "id": 12,
+      "nome": "João",
+      "idade": 25,
+      "cidade": "Araçatuba"
+    },
+    {
+      "id": 13,
+      "nome": "Igor",
+      "idade": 29,
+      "cidade": "São paulo"
+    }
+  ]
+}
