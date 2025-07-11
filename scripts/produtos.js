@@ -85,4 +85,4 @@ async function produtosPorCategorias() {
   }
 }
 
-produtosPorCategorias().then((response) => console.log(response));
+// produtosPorCategorias().then((response) => console.log(response));
