@@ -61,7 +61,7 @@ async function criarProduto(nome, categoria, preco) {
       })
       .then(async (novoProduto) => {
         try {
-          const resposta = await fetch("http://localhost:3000/clientes", {
+          const resposta = await fetch("http://localhost:3000/produtos", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
